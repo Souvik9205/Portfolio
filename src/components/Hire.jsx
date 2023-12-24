@@ -25,7 +25,7 @@ const Hire = () => {
       }
 
     return (
-        <section id="contact" className="relative">
+        <section id="contact" className="relative text-stone-100 bg-stone-500 body-font">
             <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap">
             <div className="lg:w-2/3 md:w-1/2 bg-gray-900 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
                 <iframe
@@ -42,8 +42,8 @@ const Hire = () => {
                     ADDRESS
                     </h2>
                     <p className="mt-1">
-                    97 Warren St. <br />
-                    New York, NY 10007
+                    Madhyamgram, <br />
+                    India, pin- 700155
                     </p>
                 </div>
                 <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
@@ -51,12 +51,12 @@ const Hire = () => {
                     EMAIL
                     </h2>
                     <a className="text-indigo-400 leading-relaxed">
-                    reedbarger@email.com
+                    souvik9205@gmail.com
                     </a>
                     <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
                     PHONE
                     </h2>
-                    <p className="leading-relaxed">123-456-7890</p>
+                    <p className="leading-relaxed">704-402-9550</p>
                 </div>
                 </div>
             </div>
@@ -68,11 +68,10 @@ const Hire = () => {
                 Hire Me
                 </h2>
                 <p className="leading-relaxed mb-5">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum
-                suscipit officia aspernatur veritatis. Asperiores, aliquid?
+                You can connect with me through my socials listed in the navbar or drop me an email here. Let's start a conversation!
                 </p>
                 <div className="relative mb-4">
-                <label htmlFor="name" className="leading-7 text-sm text-gray-400">
+                <label htmlFor="name" className="leading-7 text-sm text-gray-200">
                     Name
                 </label>
                 <input
@@ -83,7 +82,7 @@ const Hire = () => {
                 />
                 </div>
                 <div className="relative mb-4">
-                <label htmlFor="email" className="leading-7 text-sm text-gray-400">
+                <label htmlFor="email" className="leading-7 text-sm text-gray-200">
                     Email
                 </label>
                 <input
@@ -96,7 +95,7 @@ const Hire = () => {
                 <div className="relative mb-4">
                 <label
                     htmlFor="message"
-                    className="leading-7 text-sm text-gray-400">
+                    className="leading-7 text-sm text-gray-200">
                     Message
                 </label>
                 <textarea

@@ -8,7 +8,7 @@ import Hire from "./components/Hire";
 function App() {
 
   return (
-    <main className="text-gray-400 bg-gray-900 body-font">
+    <main className="text-cyan-100 bg-cyan-500 body-font">
       <Navbar />
       <Hero />
       <Projects />
