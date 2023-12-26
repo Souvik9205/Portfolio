@@ -11,7 +11,7 @@ const Navbar = () => {
         <header className="bg-amber-300 text-black md:sticky top-0 z-10">
             <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
                 <a className="title-font md:mb-0 icon">
-                    <a href="*" className="ml-3 text-2xl">
+                    <a href="#body" className="ml-3 text-2xl">
                     <FaCode className="portfolio-icon hover:text-green-300 transition-colors duration-300 ease-in-out cursor-pointer" size={55}/>
                     </a>
                 </a>
