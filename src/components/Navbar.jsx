@@ -26,9 +26,9 @@ const Navbar = () => {
                 <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-700	flex flex-wrap items-center text-base justify-center font-medium">
                     <p className="mr-6 text-2xl font-semibold">Connects:</p>
                     <div className="flex flex-row gap-4 items-center">
-                    <a href="https://www.instagram.com/souvik_23_/"><FaInstagram size={32} className="text-gray-500 hover:text-pink-600 transition-colors duration-300 ease-in-out cursor-pointer" /></a>
-                    <a href="https://github.com/Souvik9205"><IoLogoGithub size={32} className="text-gray-500 hover:text-gray-800 transition-colors duration-300 ease-in-out cursor-pointer" /></a>
-                    <a href="https://www.facebook.com/profile.php?id=61550503551153"><SiFacebook size={32} className="text-gray-500 hover:text-blue-600 transition-colors duration-300 ease-in-out cursor-pointer" /></a>
+                    <a href="https://www.instagram.com/souvik_23_/"><FaInstagram size={40} className="text-gray-500 hover:text-pink-600 transition-colors duration-800 ease-in-out cursor-pointer icon-rotate" /></a>
+                    <a href="https://github.com/Souvik9205"><IoLogoGithub size={40} className="text-gray-500 hover:text-gray-800 transition-colors duration-800 ease-in-out cursor-pointer icon-rotate" /></a>
+                    <a href="https://www.facebook.com/profile.php?id=61550503551153"><SiFacebook size={40} className="text-gray-500 hover:text-blue-600 transition-colors duration-800 ease-in-out cursor-pointer icon-rotate" /></a>
                     </div>
                 </nav>
                 <a

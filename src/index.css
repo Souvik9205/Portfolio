@@ -2,3 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  zoom: 110%;
+}
+
+.icon-rotate {
+    transition: transform 0.4s ease-in-out;
+  }
+  
+  .icon-rotate:hover {
+    transform: rotate(360deg);
+  }
+  

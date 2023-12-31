@@ -16,6 +16,7 @@ const Hire = () => {
       function handleSubmit(e) {
         e.preventDefault();
 
+        const myForm = e.target;
         const formData = {
             "form-name" : "contact",
             name,
@@ -27,9 +28,8 @@ const Hire = () => {
           method: "POST",
           headers: { "Content-Type": "application/x-www-form-urlencoded" },
           body: new URLSearchParams(formData).toString(),
-          //body: encode({ "form-name": "contact", name, email, message }),
         })
-          .then(() => console.log("Message sent!"))
+          .then(() => alert("Thank you for contacting!"))
           .catch((error) => alert(error));
       }
 

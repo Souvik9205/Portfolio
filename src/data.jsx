@@ -43,8 +43,6 @@ export const skills = [
   "MongoDB",
   "My SQL",
   "Vite",
-  "Figma",
-  "TypeScript",
   "Tailwind CSS",
   "JQuery",
   "EJS",
