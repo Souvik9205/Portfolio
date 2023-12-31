@@ -15,12 +15,16 @@ const Hire = () => {
     
       function handleSubmit(e) {
         e.preventDefault();
+
+        const myForm = e.target;
+        const formData = new FormData(myForm);
         fetch("/", {
           method: "POST",
           headers: { "Content-Type": "application/x-www-form-urlencoded" },
-          body: encode({ "form-name": "contact", name, email, message }),
+          body: new URLSearchParams(formData).toString(),
+          //body: encode({ "form-name": "contact", name, email, message }),
         })
-          .then(() => alert("Message sent!"))
+          .then(() => console.log("Message sent!"))
           .catch((error) => alert(error));
       }
 
